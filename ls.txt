@@ -1,0 +1,6 @@
+total 1
+-rw-r--r-- 1 Administrateur 1049089 17 Dec 13 12:13 README.md
+drwxr-xr-x 1 Administrateur 1049089  0 Dec 13 12:14 app/
+-rw-r--r-- 1 Administrateur 1049089  0 Dec 13 12:15 index.html
+-rw-r--r-- 1 Administrateur 1049089  0 Dec 13 13:34 ls.txt
+-rw-r--r-- 1 Administrateur 1049089  0 Dec 13 12:15 package.json
