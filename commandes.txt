@@ -1,0 +1,53 @@
+    1  cd Desktop/
+    2  mkdir test && mkdir ex1 mkdir ex2
+    3  mkdir test && mkdir test/ex1 test/mkdir ex2
+    4  mkdir test && mkdir test/ex1 test/ex2
+    5  git init
+    6  cd test/
+    7  git init
+    8  git add*
+    9  git add *
+   10  git commit -m 'enregistrement fichiers'
+   11  git --help
+   12  git -h
+   13  git status
+   14  touch test/ex1/test.txt
+   15  cd test/ex1
+   16  cd ex1/
+   17  touch test.txt
+   18  cd ..
+   19  cd ex2/
+   20  touch test2.txt
+   21  git add *
+   22  git status
+   23  cd ..
+   24  git add*
+   25  git status
+   26  cd ..
+   27  cd test/
+   28  git clone https://github.com/MagSire/tpgit.git
+   29  cd tpgit/
+   30  mkdir app && mkdir app/controller app/entity app/repository
+   31  cd app/
+   32  cd ..
+   33  touch index.html package.json
+   34  mkdir public && mkdir public/css public/js public/media
+   35  git add *
+   36  git status
+   37  git commit -m 'création des pages index.html et package.json'
+   38  git status
+   39  touch public/css/main.css public.js/app.js public/media/profil.png
+   40  cd public/
+   41  cd ..
+   42  touch public/js/app.js
+   43  git add *
+   44  git commit -m 'rajout des fichiers main.css app.js et profil.png dans le dossier profil, puis dans les sous-dossiers correspondants'
+   45  git rm -r public/
+   46  git add *
+   47  git commit -m 'suppression du dossier public'
+   48  git ls -l>ls.txt
+   49  ls -l>ls.txt
+   50  git add *
+   51  git commit -m 'suppression de public et création du fichier ls'
+   52  git push origin main
+   53  history>commandes.txt
